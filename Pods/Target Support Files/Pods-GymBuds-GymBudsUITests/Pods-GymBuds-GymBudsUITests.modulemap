@@ -1,0 +1,6 @@
+framework module Pods_GymBuds_GymBudsUITests {
+  umbrella header "Pods-GymBuds-GymBudsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
