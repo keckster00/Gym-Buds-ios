@@ -13,6 +13,9 @@
 		A82E87A62A0437E1005ECDF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E87A52A0437E1005ECDF6 /* LoginView.swift */; };
 		A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E87A72A0437E7005ECDF6 /* RegisterView.swift */; };
 		A8504FA42A04216900B138F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8504FA32A04216900B138F8 /* GoogleService-Info.plist */; };
+		A87E0DB52A045094009640CE /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E0DB42A045094009640CE /* AuthHeaderView.swift */; };
+		A87E0DB72A045330009640CE /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E0DB62A045330009640CE /* AuthViewModel.swift */; };
+		A87E0DB92A0453F6009640CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E0DB82A0453F6009640CE /* ContentView.swift */; };
 		A8C3C9E72A043B8B00111E54 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */; };
 		A8C3C9E92A04451400111E54 /* CustomInputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3C9E82A04451400111E54 /* CustomInputFields.swift */; };
 		A8D95B752A04161800124C1A /* GymBudsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95B742A04161800124C1A /* GymBudsApp.swift */; };
@@ -50,6 +53,9 @@
 		A82E87A52A0437E1005ECDF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A82E87A72A0437E7005ECDF6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		A8504FA32A04216900B138F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A87E0DB42A045094009640CE /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		A87E0DB62A045330009640CE /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A87E0DB82A0453F6009640CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		A8C3C9E82A04451400111E54 /* CustomInputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputFields.swift; sourceTree = "<group>"; };
 		A8D95B712A04161800124C1A /* GymBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +121,7 @@
 			children = (
 				A82E87A42A0437C9005ECDF6 /* ViewModel */,
 				A82E87A32A0437C1005ECDF6 /* Views */,
+				A87E0DB42A045094009640CE /* AuthHeaderView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 		A82E87A42A0437C9005ECDF6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A87E0DB62A045330009640CE /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 				A82E87A12A04377E005ECDF6 /* Core */,
 				A8504FA32A04216900B138F8 /* GoogleService-Info.plist */,
 				A8D95B742A04161800124C1A /* GymBudsApp.swift */,
+				A87E0DB82A0453F6009640CE /* ContentView.swift */,
 				A8D95B782A04161900124C1A /* Assets.xcassets */,
 				A8D95B7A2A04161900124C1A /* Preview Content */,
 			);
@@ -475,7 +484,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */,
+				A87E0DB52A045094009640CE /* AuthHeaderView.swift in Sources */,
+				A87E0DB92A0453F6009640CE /* ContentView.swift in Sources */,
 				A82E87A62A0437E1005ECDF6 /* LoginView.swift in Sources */,
+				A87E0DB72A045330009640CE /* AuthViewModel.swift in Sources */,
 				A8D95B752A04161800124C1A /* GymBudsApp.swift in Sources */,
 				A8C3C9E92A04451400111E54 /* CustomInputFields.swift in Sources */,
 				A8C3C9E72A043B8B00111E54 /* RoundedShape.swift in Sources */,
