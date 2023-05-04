@@ -1,0 +1,5 @@
+/Users/andrewkeck/Library/Developer/Xcode/DerivedData/GymBuds-ftdtjzxlkpoifidcaiicacyzcrjq/Build/Intermediates.noindex/Previews/GymBuds/Products/Debug-iphonesimulator/FirebaseUI/FirebaseAuthUI.bundle
+/Users/andrewkeck/Library/Developer/Xcode/DerivedData/GymBuds-ftdtjzxlkpoifidcaiicacyzcrjq/Build/Intermediates.noindex/Previews/GymBuds/Products/Debug-iphonesimulator/FirebaseUI/FirebaseFacebookAuthUI.bundle
+/Users/andrewkeck/Library/Developer/Xcode/DerivedData/GymBuds-ftdtjzxlkpoifidcaiicacyzcrjq/Build/Intermediates.noindex/Previews/GymBuds/Products/Debug-iphonesimulator/FirebaseUI/FirebaseGoogleAuthUI.bundle
+/Users/andrewkeck/Library/Developer/Xcode/DerivedData/GymBuds-ftdtjzxlkpoifidcaiicacyzcrjq/Build/Intermediates.noindex/Previews/GymBuds/Products/Debug-iphonesimulator/FirebaseUI/FirebasePhoneAuthUI.bundle
+/Users/andrewkeck/Library/Developer/Xcode/DerivedData/GymBuds-ftdtjzxlkpoifidcaiicacyzcrjq/Build/Intermediates.noindex/Previews/GymBuds/Products/Debug-iphonesimulator/FirebaseUI/FirebaseTwitterAuthUI.bundle

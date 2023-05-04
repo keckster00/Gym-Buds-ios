@@ -10,8 +10,12 @@
 		5AB6D926BE444A6B505F3AA6 /* Pods_GymBudsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B31756B45B77E02E841C6C /* Pods_GymBudsTests.framework */; };
 		86B8924D334175DC3EC92900 /* Pods_GymBuds_GymBudsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCE0ECA850661966672DF9E /* Pods_GymBuds_GymBudsUITests.framework */; };
 		A7E8F6B177082911D4B3F404 /* Pods_GymBuds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF9F51CB92646606CFB0AA6 /* Pods_GymBuds.framework */; };
+		A82E87A62A0437E1005ECDF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E87A52A0437E1005ECDF6 /* LoginView.swift */; };
+		A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E87A72A0437E7005ECDF6 /* RegisterView.swift */; };
+		A8504FA42A04216900B138F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8504FA32A04216900B138F8 /* GoogleService-Info.plist */; };
+		A8C3C9E72A043B8B00111E54 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */; };
+		A8C3C9E92A04451400111E54 /* CustomInputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3C9E82A04451400111E54 /* CustomInputFields.swift */; };
 		A8D95B752A04161800124C1A /* GymBudsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95B742A04161800124C1A /* GymBudsApp.swift */; };
-		A8D95B772A04161800124C1A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95B762A04161800124C1A /* HomeView.swift */; };
 		A8D95B792A04161900124C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D95B782A04161900124C1A /* Assets.xcassets */; };
 		A8D95B7C2A04161900124C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D95B7B2A04161900124C1A /* Preview Assets.xcassets */; };
 		A8D95B862A04161A00124C1A /* GymBudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95B852A04161A00124C1A /* GymBudsTests.swift */; };
@@ -43,9 +47,13 @@
 		68B217CB8D13A6B46271D540 /* Pods-GymBudsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBudsTests.debug.xcconfig"; path = "Target Support Files/Pods-GymBudsTests/Pods-GymBudsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E65F3CD0F1441E54278B61D /* Pods-GymBuds-GymBudsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBuds-GymBudsUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymBuds-GymBudsUITests/Pods-GymBuds-GymBudsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		75B31756B45B77E02E841C6C /* Pods_GymBudsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBudsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82E87A52A0437E1005ECDF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A82E87A72A0437E7005ECDF6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A8504FA32A04216900B138F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		A8C3C9E82A04451400111E54 /* CustomInputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputFields.swift; sourceTree = "<group>"; };
 		A8D95B712A04161800124C1A /* GymBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D95B742A04161800124C1A /* GymBudsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymBudsApp.swift; sourceTree = "<group>"; };
-		A8D95B762A04161800124C1A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A8D95B782A04161900124C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8D95B7B2A04161900124C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8D95B812A04161A00124C1A /* GymBudsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymBudsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +94,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A82E87A02A043778005ECDF6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A82E87A12A04377E005ECDF6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3C9E52A043B7C00111E54 /* Components */,
+				A82E87A22A0437B6005ECDF6 /* Auth */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A82E87A22A0437B6005ECDF6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A82E87A42A0437C9005ECDF6 /* ViewModel */,
+				A82E87A32A0437C1005ECDF6 /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A82E87A32A0437C1005ECDF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A82E87A52A0437E1005ECDF6 /* LoginView.swift */,
+				A82E87A72A0437E7005ECDF6 /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A82E87A42A0437C9005ECDF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8C3C9E52A043B7C00111E54 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */,
+				A8C3C9E82A04451400111E54 /* CustomInputFields.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A8D95B682A04161800124C1A = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				A8D95BA02A04177B00124C1A /* Models */,
-				A8D95B9F2A04177200124C1A /* Controllers */,
-				A8D95B9E2A04176A00124C1A /* Views */,
+				A82E87A02A043778005ECDF6 /* Service */,
+				A82E87A12A04377E005ECDF6 /* Core */,
+				A8504FA32A04216900B138F8 /* GoogleService-Info.plist */,
 				A8D95B742A04161800124C1A /* GymBudsApp.swift */,
 				A8D95B782A04161900124C1A /* Assets.xcassets */,
 				A8D95B7A2A04161900124C1A /* Preview Content */,
@@ -146,21 +205,6 @@
 			path = GymBudsUITests;
 			sourceTree = "<group>";
 		};
-		A8D95B9E2A04176A00124C1A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A8D95B762A04161800124C1A /* HomeView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A8D95B9F2A04177200124C1A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		A8D95BA02A04177B00124C1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +222,6 @@
 				68B217CB8D13A6B46271D540 /* Pods-GymBudsTests.debug.xcconfig */,
 				3436E668B44813F4649A6875 /* Pods-GymBudsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,6 +246,7 @@
 				A8D95B6D2A04161800124C1A /* Sources */,
 				A8D95B6E2A04161800124C1A /* Frameworks */,
 				A8D95B6F2A04161800124C1A /* Resources */,
+				473CCA20E61F81F02FC36BB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,7 +265,6 @@
 				A8D95B7D2A04161A00124C1A /* Sources */,
 				A8D95B7E2A04161A00124C1A /* Frameworks */,
 				A8D95B7F2A04161A00124C1A /* Resources */,
-				0DD16F9B8E7A6018DD89400B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +284,7 @@
 				A8D95B872A04161A00124C1A /* Sources */,
 				A8D95B882A04161A00124C1A /* Frameworks */,
 				A8D95B892A04161A00124C1A /* Resources */,
+				F16478039483A77888DA6114 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +346,7 @@
 			files = (
 				A8D95B7C2A04161900124C1A /* Preview Assets.xcassets in Resources */,
 				A8D95B792A04161900124C1A /* Assets.xcassets in Resources */,
+				A8504FA42A04216900B138F8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,21 +367,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DD16F9B8E7A6018DD89400B /* [CP] Embed Pods Frameworks */ = {
+		473CCA20E61F81F02FC36BB6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GymBudsTests/Pods-GymBudsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GymBuds/Pods-GymBuds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GymBudsTests/Pods-GymBudsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GymBuds/Pods-GymBuds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymBudsTests/Pods-GymBudsTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymBuds/Pods-GymBuds-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		81A12E236B48DCB149B46AFA /* [CP] Check Pods Manifest.lock */ = {
@@ -405,6 +450,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F16478039483A77888DA6114 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymBuds-GymBudsUITests/Pods-GymBuds-GymBudsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymBuds-GymBudsUITests/Pods-GymBuds-GymBudsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymBuds-GymBudsUITests/Pods-GymBuds-GymBudsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -412,8 +474,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8D95B772A04161800124C1A /* HomeView.swift in Sources */,
+				A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */,
+				A82E87A62A0437E1005ECDF6 /* LoginView.swift in Sources */,
 				A8D95B752A04161800124C1A /* GymBudsApp.swift in Sources */,
+				A8C3C9E92A04451400111E54 /* CustomInputFields.swift in Sources */,
+				A8C3C9E72A043B8B00111E54 /* RoundedShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

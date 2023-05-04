@@ -4,13 +4,19 @@
 target 'GymBuds' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for GymBuds
+  
+  #Firebase
+  pod 'FirebaseCore'
+  pod 'FirebaseAuth'
+  pod 'FirebaseDatabase'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseCrashlytics'
+  pod 'FirebaseFirestore'
+  
 
   target 'GymBudsTests' do
     inherit! :search_paths
-    # Pods for testing
-    pod 'FSCalendar'
+   
   end
 
   target 'GymBudsUITests' do
