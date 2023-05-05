@@ -36,7 +36,7 @@ extension ContentView {
         VStack {
             Text("Main Page")
             Button {
-                $viewModel.signOut
+                viewModel.signOut()
             } label: {
                 Text("Sign out")
             }
