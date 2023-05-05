@@ -10,6 +10,10 @@
 		5AB6D926BE444A6B505F3AA6 /* Pods_GymBudsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B31756B45B77E02E841C6C /* Pods_GymBudsTests.framework */; };
 		86B8924D334175DC3EC92900 /* Pods_GymBuds_GymBudsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCE0ECA850661966672DF9E /* Pods_GymBuds_GymBudsUITests.framework */; };
 		A7E8F6B177082911D4B3F404 /* Pods_GymBuds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF9F51CB92646606CFB0AA6 /* Pods_GymBuds.framework */; };
+		A82ACD542A058C4F0082521E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACD532A058C4F0082521E /* MainTabView.swift */; };
+		A82ACD5A2A058D330082521E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACD592A058D330082521E /* FeedView.swift */; };
+		A82ACD602A058FE00082521E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACD5F2A058FE00082521E /* PostView.swift */; };
+		A82ACD622A0593E40082521E /* FeedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACD612A0593E40082521E /* FeedHeaderView.swift */; };
 		A82E87A62A0437E1005ECDF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E87A52A0437E1005ECDF6 /* LoginView.swift */; };
 		A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82E87A72A0437E7005ECDF6 /* RegisterView.swift */; };
 		A8504FA42A04216900B138F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8504FA32A04216900B138F8 /* GoogleService-Info.plist */; };
@@ -50,6 +54,10 @@
 		68B217CB8D13A6B46271D540 /* Pods-GymBudsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBudsTests.debug.xcconfig"; path = "Target Support Files/Pods-GymBudsTests/Pods-GymBudsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E65F3CD0F1441E54278B61D /* Pods-GymBuds-GymBudsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBuds-GymBudsUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymBuds-GymBudsUITests/Pods-GymBuds-GymBudsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		75B31756B45B77E02E841C6C /* Pods_GymBudsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBudsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82ACD532A058C4F0082521E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A82ACD592A058D330082521E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A82ACD5F2A058FE00082521E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		A82ACD612A0593E40082521E /* FeedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeaderView.swift; sourceTree = "<group>"; };
 		A82E87A52A0437E1005ECDF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A82E87A72A0437E7005ECDF6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		A8504FA32A04216900B138F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -100,6 +108,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A82ACD522A058C3D0082521E /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACD532A058C4F0082521E /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		A82ACD552A058D0A0082521E /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACD582A058D250082521E /* ViewModels */,
+				A82ACD562A058D1A0082521E /* Views */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A82ACD562A058D1A0082521E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACD592A058D330082521E /* FeedView.swift */,
+				A82ACD612A0593E40082521E /* FeedHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A82ACD582A058D250082521E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A82ACD5B2A058F2F0082521E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A82ACD5C2A058F350082521E /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		A82ACD5D2A058F3E0082521E /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A82ACD5E2A058F4F0082521E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		A82E87A02A043778005ECDF6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +180,12 @@
 			isa = PBXGroup;
 			children = (
 				A8C3C9E52A043B7C00111E54 /* Components */,
+				A82ACD552A058D0A0082521E /* Feed */,
+				A82ACD5D2A058F3E0082521E /* Calendar */,
+				A82ACD5E2A058F4F0082521E /* Camera */,
+				A82ACD5C2A058F350082521E /* Premium */,
+				A82ACD5B2A058F2F0082521E /* Profile */,
+				A82ACD522A058C3D0082521E /* MainTab */,
 				A82E87A22A0437B6005ECDF6 /* Auth */,
 			);
 			path = Core;
@@ -148,6 +223,7 @@
 			children = (
 				A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */,
 				A8C3C9E82A04451400111E54 /* CustomInputFields.swift */,
+				A82ACD5F2A058FE00082521E /* PostView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -483,14 +559,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82ACD5A2A058D330082521E /* FeedView.swift in Sources */,
 				A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */,
 				A87E0DB52A045094009640CE /* AuthHeaderView.swift in Sources */,
+				A82ACD542A058C4F0082521E /* MainTabView.swift in Sources */,
 				A87E0DB92A0453F6009640CE /* ContentView.swift in Sources */,
 				A82E87A62A0437E1005ECDF6 /* LoginView.swift in Sources */,
 				A87E0DB72A045330009640CE /* AuthViewModel.swift in Sources */,
+				A82ACD622A0593E40082521E /* FeedHeaderView.swift in Sources */,
 				A8D95B752A04161800124C1A /* GymBudsApp.swift in Sources */,
 				A8C3C9E92A04451400111E54 /* CustomInputFields.swift in Sources */,
 				A8C3C9E72A043B8B00111E54 /* RoundedShape.swift in Sources */,
+				A82ACD602A058FE00082521E /* PostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
