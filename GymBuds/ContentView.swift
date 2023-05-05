@@ -27,6 +27,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(AuthViewModel())
     }
 }
 
@@ -34,12 +35,7 @@ extension ContentView {
 
     var mainInterfaceView: some View {
         VStack {
-            Text("Main Page")
-            Button {
-                viewModel.signOut()
-            } label: {
-                Text("Sign out")
-            }
+            MainTabView()
         }
 
     }

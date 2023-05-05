@@ -17,13 +17,13 @@ struct FeedHeaderView: View {
             Button {
                 print("Notification clicked")
             } label: {
-                Image(systemName: "tray.fill")
+                Image(systemName: "bell")
             }
             
             Button {
                 print("Messages clicked")
             } label: {
-                Image(systemName: "bubble.left")
+                Image(systemName: "tray.fill")
             }
 
         }

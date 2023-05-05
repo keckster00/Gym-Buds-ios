@@ -20,6 +20,7 @@
 		A87E0DB52A045094009640CE /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E0DB42A045094009640CE /* AuthHeaderView.swift */; };
 		A87E0DB72A045330009640CE /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E0DB62A045330009640CE /* AuthViewModel.swift */; };
 		A87E0DB92A0453F6009640CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E0DB82A0453F6009640CE /* ContentView.swift */; };
+		A888018D2A059A9800C17D30 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888018C2A059A9800C17D30 /* ProfileView.swift */; };
 		A8C3C9E72A043B8B00111E54 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */; };
 		A8C3C9E92A04451400111E54 /* CustomInputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3C9E82A04451400111E54 /* CustomInputFields.swift */; };
 		A8D95B752A04161800124C1A /* GymBudsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D95B742A04161800124C1A /* GymBudsApp.swift */; };
@@ -64,6 +65,7 @@
 		A87E0DB42A045094009640CE /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		A87E0DB62A045330009640CE /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		A87E0DB82A0453F6009640CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A888018C2A059A9800C17D30 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A8C3C9E62A043B8B00111E54 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		A8C3C9E82A04451400111E54 /* CustomInputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputFields.swift; sourceTree = "<group>"; };
 		A8D95B712A04161800124C1A /* GymBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +146,8 @@
 		A82ACD5B2A058F2F0082521E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A888018B2A059A8C00C17D30 /* ViewModels */,
+				A888018A2A059A8900C17D30 /* Views */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -216,6 +220,21 @@
 				A87E0DB62A045330009640CE /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A888018A2A059A8900C17D30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A888018C2A059A9800C17D30 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A888018B2A059A8C00C17D30 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		A8C3C9E52A043B7C00111E54 /* Components */ = {
@@ -560,6 +579,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82ACD5A2A058D330082521E /* FeedView.swift in Sources */,
+				A888018D2A059A9800C17D30 /* ProfileView.swift in Sources */,
 				A82E87A82A0437E7005ECDF6 /* RegisterView.swift in Sources */,
 				A87E0DB52A045094009640CE /* AuthHeaderView.swift in Sources */,
 				A82ACD542A058C4F0082521E /* MainTabView.swift in Sources */,

@@ -48,7 +48,7 @@ struct MainTabView: View {
                 })
                 .tag(3)
 
-            FeedView()
+            ProfileView()
                 .onTapGesture(perform: {
                     self.selectedIndex = 4
                 })
